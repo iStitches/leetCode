@@ -2,7 +2,7 @@ package work;
 
 import org.junit.Test;
 
-public class mian01_01 {
+public class mian_01_01 {
     public boolean isUnique(String astr) {
     	if(astr.length()==0)return true;
     	boolean flag=true;
