@@ -1,13 +1,5 @@
 package Day1;
-
-
-class TreeNode{
-   int val;
-   TreeNode left;
-   TreeNode right;
-   TreeNode(int x){val=x;}
-}
-
+import Day1.*;
 
 public class everyDay3 {
 	int res=0;
