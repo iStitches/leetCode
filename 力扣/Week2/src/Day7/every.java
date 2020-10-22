@@ -6,6 +6,13 @@ class TreeNode{
 	TreeNode right;
 	TreeNode(int x){val=x;}
 }
+/**
+ * 已知二叉树的  先序遍历、后序遍历，还原这棵二叉树
+ * 思路：
+ *    后序遍历：
+ * @author dell
+ *
+ */
 
 public class every {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
