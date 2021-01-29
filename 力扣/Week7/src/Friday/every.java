@@ -22,20 +22,22 @@ public class every {
     	head2.next=cur;
     	while(cur.next!=null) {
     		ListNode next=cur.next;
-    		cur.next=next.next;
-    		next.next=head2.next;
+    		if(next!=null) {
+    			cur.next=next.next;
+        		next.next=head2.next;
+    		}
     		head2.next=next;
     	}
     	
     	//‘Ÿ¥Œ±È¿˙
     	head2=head2.next;
-    	while(head!=null) {
+    	while(head2!=null) {
     		if(head2.val!=head.val)
     			return false;
     		head=head.next;
     		head2=head2.next;
     	}
-    	return false;
+    	return true;
     	
    }
     public static void main(String[] args) {
